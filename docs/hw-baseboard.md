@@ -1,6 +1,6 @@
 ---
 title: "Hardware: Baseboard"
-permalink: /docs/hw-baseboard.md
+permalink: /docs/hw-baseboard
 parent: "Hardware"
 nav_order: 2
 ---
