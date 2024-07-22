@@ -1,3 +1,75 @@
-theme: jekyll-theme-minimal
-title: Eduboard2 
-description: Juventus-Technikerschule-HF Eduboard2 Infos
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+#
+# If you need help with YAML syntax, here are some quick references for you:
+# https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
+# https://learnxinyminutes.com/docs/yaml/
+#
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+
+title: Eduboard2
+email: martin.burger@juventus.schule
+description: >- # this means to ignore newlines until "baseurl:"
+  The Eduboard2 Project is the second iteration of a Educational Development Board for the Juventus Technikerschule HF.
+
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://juventus-technikerschule-hf.github.io/eduboard2.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: 
+github_username: Juventus-Technikerschule-HF
+
+# Build settings
+# theme: just-the-docs
+remote_theme: just-the-docs/just-the-docs
+plugins:
+  - jekyll-feed
+  - jekyll-remote-theme
+
+# Exclude from processing.
+# The following items will not be processed, by default.
+# Any item listed under the `exclude:` key here will be automatically added to
+# the internal "default list".
+#
+# Excluded items can be processed by explicitly listing the directories or
+# their entries' file path in the `include:` list.
+#
+# exclude:
+#   - .sass-cache/
+#   - .jekyll-cache/
+#   - gemfiles/
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules/
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
+
+favicon_ico: "/assets/favicon.ico"
+mermaid:
+  version: "9.1.3"
+
+gh_edit_link: true # show or hide edit this page link
+gh_edit_link_text: "Edit this page on GitHub."
+gh_edit_repository: "https://github.com/just-the-docs/just-the-docs" # the github URL for your repo
+gh_edit_branch: "master" # the branch that your docs is served from
+# gh_edit_source: docs # the source that your files originate from
+gh_edit_view_mode: "tree"
+
+callouts:
+  warning:
+    title: Warning
+    color: red
+  watchout:
+    title: Watch Out
+    color: yellow
