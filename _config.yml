@@ -24,7 +24,8 @@ description: >- # this means to ignore newlines until "baseurl:"
   The Eduboard2 Project is the second iteration of a Educational Development Board for the Juventus Technikerschule HF.
 
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://juventus-technikerschule-hf.github.io/eduboard2.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://juventus-technikerschule-hf.github.io/eduboard2.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "eduboard2.github.io" # does not include hostname
 twitter_username: 
 github_username: Juventus-Technikerschule-HF
 
