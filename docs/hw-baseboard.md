@@ -1,5 +1,5 @@
 ---
-title: "Hardware: Baseboard"
+title: "Baseboard"
 permalink: /docs/hw-baseboard
 parent: "Hardware"
 nav_order: 2
