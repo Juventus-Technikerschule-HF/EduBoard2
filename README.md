@@ -1,1 +1,1 @@
-# edubaord2.github.io
+# eduboard2.github.io
