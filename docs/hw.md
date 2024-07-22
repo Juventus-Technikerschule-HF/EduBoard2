@@ -1,6 +1,6 @@
 ---
-title: Hardware
-permalink: /docs/hw-hardware
+title: "Hardware"
+permalink: /docs/hw
 has_children: true
 nav_order: 2
 ---
