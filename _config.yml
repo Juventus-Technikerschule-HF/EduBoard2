@@ -25,7 +25,7 @@ description: >- # this means to ignore newlines until "baseurl:"
 
 # baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://juventus-technikerschule-hf.github.io/eduboard2/" # the base hostname & protocol for your site, e.g. http://example.com
-baseurl: "eduboard2" # does not include hostname
+# baseurl: "eduboard2" # does not include hostname
 twitter_username: 
 github_username: Juventus-Technikerschule-HF
 
