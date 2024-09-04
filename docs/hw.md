@@ -7,7 +7,7 @@ nav_order: 2
 
 # Eduboard2 Hardware
 
-The Eduboard2 was designed with 3 maingoals in mind:
+### The Eduboard2 was designed with 3 maingoals in mind:
 - Support different Microcontroller-Platforms
     - The Microcontroller is separated out onto a second Board, connected via m.2. This allows easy adaptability to other microcontrollers. The first supported Microcontroller was descided to be the ESP32-S3. The ESP32-S3 can be programmed and debugged via USB.
 - Have a wide and modern variety of Peripheral options
